@@ -3,7 +3,7 @@ import unittest
 from webtest import TestApp
 import sys
 sys.path.append('../')
-from python_webtest import web_app #
+from python_webtest import web_app
 
 os.environ['WEBTEST_TARGET_URL'] = 'http://localhost:8888'
 test_app = TestApp(web_app)
