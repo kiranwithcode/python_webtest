@@ -32,6 +32,7 @@ The Application mounted at '' has an empty config.
 # check sample application by curl
 $ curl localhost:8888/example/foo -s
 {"query": "foo", "upper_query": "FOO"}
+
 $ curl localhost:8888/example/ -s
 {"query": "NO_QUERY"}
 
