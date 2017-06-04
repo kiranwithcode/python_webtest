@@ -1,6 +1,7 @@
 import cherrypy
 
 class RootServer:
+    """ return json with upper case of query """
     @cherrypy.expose
     @cherrypy.tools.json_out()
     def example(self, query=""):
